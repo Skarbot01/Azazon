@@ -62,7 +62,30 @@ footer {
 }
 
 .my-aside{
-  background-color: #000;
+  background-color: #fff;
   position:sticky;
+  top:5px;
+
+  width: auto;
   height: 100vh;
+  padding: 0%;
 }
+
+.my-badge{
+  height: 7vh;
+  width: 8vh;
+}
+
+.my-card{
+  padding: 0%;
+}
+
+
+.my-main{
+  margin: 0%;
+}
+
+.my-form{
+  margin: 10px;
+}
+
