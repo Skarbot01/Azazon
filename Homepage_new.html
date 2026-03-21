@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.rtl.css">
+  <link rel="stylesheet" href="css/my_styles.css">
+  <title>Homepage</title>
+</head>
+
+<body>
+  <script src="bootstrap.bundle.js"></script>
+
+  <div class="page-grid">
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid d-flex align-items-center gap-2">
+          <a class="navbar-brand">
+            <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Азазон" width="80" height="24"
+              class="d-inline-block align-text-top">
+            <button class="btn btn-primary" type="submit">Католог</button>
+          </a>
+          <form class="d-flex flex-grow-1 mx-3" role="search">
+            <input id="search" class="form-control me-2 w-100" type="search" placeholder="Поиск" aria-label="Поиск">
+            <button class="btn btn-outline-success" type="submit">Поиск</button>
+          </form>
+          <button type="button" class="btn btn-outline-secondary">Заказы</button>
+          <button type="button" class="btn btn-outline-secondary">Избранное</button>
+          <button type="button" class="btn btn-outline-secondary">Корзина</button>
+          <button type="button" class="btn btn-primary position-relative">
+            Профиль
+            <span
+              class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden">Новые уведомления</span>
+            </span>
+          </button>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-primary" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Рекомендуемые</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Цена</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Выпадающий список ссылкой
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Адрес</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </nav>
+    </header>
+
+    <main class="main-with-footer-spacing">
+      <div id="carouselExample" class="carousel slide mb-5 ">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://cdn1.ozonusercontent.com/s3/sellerassets/ww1450_q80/4f46e564-2146-11f1-b4d4-1a71538c4c58.jpeg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn1.ozonusercontent.com/s3/sellerassets/ww1450_q80/f019be87-1e06-11f1-ac8d-5e811188dfa3.jpeg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn1.ozonusercontent.com/s3/sellerassets/ww1450_q80/d3916af4-2368-11f1-b5d0-4a8fa4ea999f.jpeg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+
+      <div class="container text-center my-main">
+        <div class="row">
+          <div class="col my-aside">
+            <div class="col my-aside d-flex justify-content-center align-items-center">
+              <div class="d-flex flex-wrap gap-4 justify-content-center">
+                <button type="button" class="btn btn-primary btn-lg my-badge">.</button>
+                <button type="button" class="btn btn-primary btn-lg my-badge">!</button>
+                <button type="button" class="btn btn-primary btn-lg my-badge">@</button>
+                <button type="button" class="btn btn-primary btn-lg my-badge">#</button>
+                <button type="button" class="btn btn-primary btn-lg my-badge">$</button>
+                <button type="button" class="btn btn-primary btn-lg my-badge">&</button>
+                <button type="button" class="btn btn-primary btn-lg my-badge">?</button>
+                <button type="button" class="btn btn-primary btn-lg my-badge">.</button>
+                <button type="button" class="btn btn-primary btn-lg my-badge">№</button>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-11 my-card">
+            <div class="container-fluid">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card h-100 my-card">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 1</h5>
+                      <p class="card-text">Описание товара 1.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 2</h5>
+                      <p class="card-text">Описание товара 2.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 3">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 3</h5>
+                      <p class="card-text">Описание товара 3.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 4">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 4</h5>
+                      <p class="card-text">Описание товара 4.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 5">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 5</h5>
+                      <p class="card-text">Описание товара 5.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 6">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 6</h5>
+                      <p class="card-text">Описание товара 6.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 7">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 7</h5>
+                      <p class="card-text">Описание товара 7.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 8">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 8</h5>
+                      <p class="card-text">Описание товара 8.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 5">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 9</h5>
+                      <p class="card-text">Описание товара 5.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 6">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 10</h5>
+                      <p class="card-text">Описание товара 6.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 7">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 11</h5>
+                      <p class="card-text">Описание товара 7.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://ir-8.ozone.ru/s3/multimedia-1-x/wc300/7824574473.jpg" class="card-img-top"
+                      alt="Товар 8">
+                    <div class="card-body">
+                      <h5 class="card-title">Товар 12</h5>
+                      <p class="card-text">Описание товара 8.</p>
+                      <a href="OrderPage.html" class="btn btn-primary">Купить</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container text-center my-form">
+              <div class="row">
+                <div class="alert alert-light" role="alert">
+                  <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                      <label for="validationCustom01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustom02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustomUsername" class="form-label">Username</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                          aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationCustom03" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom04" class="form-label">State</label>
+                      <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationCustom05" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 ">
+      <p>Адрес: Москва, ул. Примерная, 123</p>
+      <p>Телефон: +7 (495) 123-45-67</p>
+      <p>Email: info@example.com</p>
+      <p>© 2024 Ваша компания. Все права защищены.</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>

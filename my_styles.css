@@ -58,7 +58,7 @@ footer {
 }
 
 .main-with-footer-spacing {
-  margin-bottom: 200px; /* или любое другое значение */
+  margin-bottom: 200px;
 }
 
 .my-aside{
@@ -83,9 +83,23 @@ footer {
 
 .my-main{
   margin: 0%;
+  width: 100vw;
 }
 
 .my-form{
   margin: 10px;
+  margin-left: 250px;
 }
 
+.breadcrumb-item:not(:last-child)::after {
+    content: " > ";
+    padding: 0 0.5rem;
+    color: #999;
+}
+.breadcrumb-item.active::after {
+  content: none;
+}
+.order-card{
+  width: 50vw;
+  margin-left: 500px;
+}
